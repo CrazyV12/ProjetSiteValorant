@@ -1,0 +1,170 @@
+/* Styling pour les titres de niveau 1 (h1) */
+h1 {
+    font-weight: 100; /* Définition du poids de la police */
+    font-size: xx-large; /* Taille de la police */
+}
+
+/* Styling pour le corps (body) */
+body {
+    font-family: "Rubik", sans-serif; /* Police de caractère */
+    font-style: normal; /* Style de police */
+    font-size: 14px; /* Taille de la police */
+    margin: 0; /* Suppression des marges par défaut */
+    padding: 0; /* Suppression des rembourrages par défaut */
+}
+
+/* Styling pour l'en-tête (header) */
+header {
+    font-family: Impact, fantasy; /* Police de caractère */
+    max-width: 90%; /* Largeur maximale */
+    margin-right: auto; /* Marge droite automatique */
+    margin-left: auto; /* Marge gauche automatique */
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    text-align: center; /* Alignement du texte */
+}
+
+/* Styling pour la navigation (nav) */
+nav {
+    display: flex; /* Utilisation de Flexbox pour le positionnement */
+    flex-wrap: wrap; /* Gestion du débordement des éléments enfants */
+    align-items: center; /* Alignement vertical des éléments */
+    width: 100%; /* Largeur maximale */
+    padding-top: 30px; /* Espacement supérieur */
+    padding-left: 0; /* Suppression du remplissage à gauche */
+    padding-right: 0; /* Suppression du remplissage à droite */
+    padding-bottom: 10px; /* Espacement inférieur */
+}
+
+/* Styling pour les listes non ordonnées à l'intérieur de la navigation */
+nav ul {
+    flex: 1; /* Partage flexible de l'espace disponible */
+    display: flex; /* Utilisation de Flexbox pour le positionnement */
+    list-style-type: none; /* Suppression des puces de liste */
+    padding: 0; /* Suppression du remplissage */
+    justify-content: center; /* Alignement horizontal des éléments */
+}
+
+/* Styling pour les éléments de liste à l'intérieur de la navigation */
+nav ul li {
+    display: inline; /* Affichage en ligne */
+    margin-right: 20px; /* Marge à droite */
+}
+
+/* Styling pour les liens à l'intérieur des éléments de liste de navigation */
+nav ul li a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Suppression du soulignement */
+    font-size: 1.4rem; /* Taille de la police */
+    transition: color .3s; /* Transition fluide pour le changement de couleur */
+}
+
+/* Styling pour les liens au survol */
+nav ul li a:hover {
+    color: red; /* Couleur du texte au survol */
+}
+
+/* Styling pour le contenu principal (main) */
+main {
+    padding: 20px; /* Espacement intérieur */
+}
+
+/* Styling pour les sections */
+section {
+    color: red; /* Couleur du texte */
+    margin-bottom: 30px; /* Marge inférieure */
+}
+
+/* Styling pour le pied de page (footer) */
+footer {
+    position: relative; /* Position relative */
+    background-color: #333; /* Couleur de fond */
+    color: grey; /* Couleur du texte */
+    text-align: center; /* Alignement du texte */
+    padding: 10px 0; /* Espacement intérieur */
+    width: 100%; /* Largeur maximale */
+}
+
+/* Styling pour la colonne de gauche */
+.colonne_gauche {
+    width: 50%; /* Largeur */
+    padding: 20px; /* Espacement intérieur */
+}
+
+/* Styling pour l'overlay */
+.overlay {
+    position: fixed; /* Position fixe */
+    top: 0; /* Position en haut */
+    left: 0; /* Position à gauche */
+    bottom: 0; /* Position en bas */
+    width: 100%; /* Largeur maximale */
+    background: url('Images/Jett_animated.gif') center no-repeat; /* Image de fond */
+    background-size: cover; /* Redimensionnement de l'image de fond */
+    z-index: -100; /* Ordre d'empilement z-index */
+}
+
+/* Styling pour la grille d'agents */
+.grille_agent {
+    position: relative; /* Position relative */
+    margin: 0 auto; /* Marge automatique */
+    max-width: 85%; /* Largeur maximale */
+}
+
+/* Styling pour la grille de cartes */
+.grille_map {
+    position: relative; /* Position relative */
+    margin: 0 auto; /* Marge automatique */
+    max-width: 70%; /* Largeur maximale */
+}
+
+/* Styling pour les tableaux */
+table {
+    width: 100%; /* Largeur maximale */
+    border-collapse: collapse; /* Fusion des bordures de tableau */
+}
+
+/* Styling pour les cellules d'en-tête et de données */
+th, td {
+    padding: 10px; /* Espacement intérieur */
+    text-align: center; /* Alignement du texte */
+    border: 1px solid #ddd; /* Bordure */
+}
+
+/* Styling pour les cellules d'en-tête */
+th {
+    background-color: #f2f2f2; /* Couleur de fond */
+}
+
+/* Styling pour les cases d'agent */
+.case_agent {
+    position: relative; /* Position relative */
+}
+
+/* Styling pour le nom de l'agent */
+.nom_agent {
+    -webkit-text-stroke: 2px black; /* Contour du texte */
+    color: #fff; /* Couleur du texte */
+    font-size: xx-large; /* Taille de la police */
+    font-weight: bold; /* Poids de la police */
+    position: absolute; /* Position absolue */
+    top: 50%; /* Position à 50% du haut */
+    left: 50%; /* Position à 50% de la gauche */
+    transform: translate(-50%, -50%); /* Translation pour centrer */
+    padding: 5px 10px; /* Espacement intérieur */
+    border-radius: 5px; /* Rayon de bordure */
+}
+
+/* Styling pour les cases de carte */
+.case_map {
+    position: relative; /* Position relative */
+    width: 150px; /* Largeur */
+    height: 150px; /* Hauteur */
+}
+
+/* Styling pour les vidéos */
+.video {
+    display: flex; /* Utilisation de Flexbox pour le positionnement */
+    justify-content: center; /* Alignement horizontal */
+    padding-bottom: 25px; /* Espacement inférieur */
+}
